@@ -1,0 +1,233 @@
+/* 基础设置 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* #region顶部导航栏start */
+.topbar {
+    height: 30px;
+    background-color: white;
+}
+.welcome {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+    color: #666;
+}
+.welcome span, .welcome a {
+    font-size: 12px;
+    color:#666;
+}
+.hello {
+    margin: 28px;
+}
+.welcome .login {
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+.welcome .register {
+    padding-left: 10px;
+}
+.topbar-nav {
+    float: right;
+    font-size: 12px;
+}
+.topbar-nav .list {
+    height: 30px;
+    line-height: 30px;
+}
+.topbar-nav .list li {
+    float: left;
+}
+.topbar-nav .list li a {
+    padding: 0 15px;
+    border-right: 1px solid #666;
+    color:#666;
+}
+.topbar-nav .list li:first-child a {
+    padding-left: 0;
+}
+.topbar-nav .list li:last-child a {
+    padding-right: 0;
+    border-right: none;
+}
+
+/* #endregion顶部导航栏end */
+
+/* #region头部start */
+.header {
+    height: 120px;
+}
+.header-left {
+    float: left;
+    height:120px;
+}
+.header-right {
+    float: right;
+    margin-top: 42px;
+    font-size: 0;
+}
+.header-right input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid red;
+}
+.header-right button {
+    width: 80px;
+    height: 36px;
+    background-color: red;
+    vertical-align: top;
+}
+/* #endregion头部end */
+
+/* #region主导航start */
+.nav {
+    height: 48px;
+    border-bottom: 1px solid red;
+}
+.nav .nav-left {
+    float: left;
+    width: 190px;
+    height: 48px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.nav-right {
+    float: left;
+    width: 500px;
+    font-size: 0;
+}
+.nav-right a {
+    font-size: 16px;
+    color: white;
+    margin: 0 10px;
+    line-height: 48px;
+}
+/* #endregion主导航end */
+
+/* #region主要内容区start */
+.main {
+    margin-top: 10px;
+}
+.main-left {
+    float: left;
+    width: 190px;
+    height: 458px;
+    background-color: #dcdcdc;
+}
+.main-left li {
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 16px;
+}
+.main-left li a {
+    color: #666;
+}
+.main-left li:hover {
+    background-color: red;
+}
+.main-left li:hover a {
+    color: white;
+}
+.main-center {
+    float: left;
+    width: 690px;
+    height: 458px;
+    background-color: #db6161;
+    margin: 0 10px;
+}
+.main-right {
+    float: left;
+    width: 290px;
+    height: 458px;
+    /* background-color: #9b2e2e; */
+}
+.topnav {
+    height: 156px;
+    width: 260px;
+    padding: 0 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.title {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #ccc;
+}
+.title span {
+    font-size: 14px;
+    float:left;
+}
+.title a {
+    font-size: 12px;
+    float: right;
+}
+.message li {
+    height: 26px;
+    line-height: 26px;
+}
+.message li a {
+    color: #666
+}
+.bottomnav {
+    height: 290px;
+    width: 290px;
+}
+/* #endregion主要内容区end */
+
+/* #region秒杀start */
+.seckill-list li {
+    float: left;
+    margin-right: 11px;
+}
+.seckill-list li:first-child {
+    background-color: #db6161;
+    width: 190px;
+    height: 190px;
+    color: white;
+    text-align: center;
+    line-height: 190px;
+    font-size: 24px;
+}
+.seckill-list li:nth-child(2) {
+    height: 190px;
+    width: 239px;
+    background-color: #9b2e2e;
+}
+.seckill-list li:nth-child(3) {
+    height: 190px;
+    width: 239px;
+    background-color: #c6cf1f;
+}
+.seckill-list li:nth-child(4) {
+    height: 190px;
+    width: 239px;
+    background-color: #335fb1;
+}
+.seckill-list li:last-child {
+    height: 190px;
+    width: 239px;
+    background-color: #43d72f;
+    margin-right: 0;
+}
+
+/* #endregion秒杀end */
+
+/* #region楼层start */
+.floor {
+    margin-top: 48px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+/* #endregion楼层end */
